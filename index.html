@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YachtJet</title>
+    <link rel="icon" type="image/svg+xml" href="/html-css_67_shobut/assets/favicon-56aedc56.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    
+    <script type="module" crossorigin src="/html-css_67_shobut/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/html-css_67_shobut/assets/index-a8621ce7.css">
+  </head>
+  <body>
+    <header>
+        <div class="header-wrapper container">
+            <a class="logo" href="#index">yachtjet</a>
+
+<!-- ======== MOBILE MENU BURGER BUTTONS ======= -->        
+
+                <button class="mob__burger--btn menu-toggle js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu">
+                    <svg class="mob__burger--svg" width="28" height="28">
+                        <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-burger2828"></use>
+                    </svg>
+                </button>
+    
+                <button class="mob__burger-close--btn menu-toggle js-close-menu"
+                >
+                    <svg class="mob__burger-close--svg" width="28" height="28">
+                        <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-burger-close2828">
+                        </use>
+                    </svg>
+                </button>
+<!-- ======== / MOBILE MENU BURGER BUTTONS ======== --> 
+
+
+            <ul class="nav__memu--list">
+                <li class="nav__menu--item">
+                    <a class="nav__menu--link" href="#about-us">About</a>
+                </li>
+
+                <li class="nav__menu--item">
+                    <a class="nav__menu--link" href="#our-yachts">Yachts</a>
+                </li>
+
+                <li class="nav__menu--item">
+                    <a class="nav__menu--link" href="#reviews">Reviews</a>
+                </li>
+            </ul>
+
+            <ul class="menu__soc-icons--list">
+
+                <li class="menu__soc-icons--item">
+                    <a class="menu__soc-icons--link" href="https://www.instagram.com/goitclub/">
+                        <svg class="menu__soc-icons--svg" width="19" >
+                            <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="menu__soc-icons--item">
+                    <a class="menu__soc-icons--link" href="https://www.youtube.com/c/GoIT">
+                        <svg class="menu__soc-icons--svg" width="20" >
+                            <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-youtube"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="menu__soc-icons--item">
+                    <a class="menu__soc-icons--link" href="https://www.facebook.com/goITclub/ ">
+                        <svg class="menu__soc-icons--svg" width="20" >
+                            <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+</header>
+
+<!-- ============= MOBILE NAVIGATION ============= -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+
+    <ul class="mob-nav__memu--list">
+        <li class="mob-nav__menu--item">
+            <a class="mob-nav__menu--link" href="#about-us">About</a>
+        </li>
+
+        <li class="mob-nav__menu--item">
+            <a class="mob-nav__menu--link" href="#our-yachts">Yachts</a>
+        </li>
+
+        <li class="mob-nav__menu--item">
+            <a class="mob-nav__menu--link" href="#reviews">Reviews</a>
+        </li>
+    </ul>
+
+<!-- ============= / MOBILE NAVIGATION ============= -->
+
+<!-- ============= MOBILE SOCIAL ICONS -WHITE ============= -->
+    <ul class="mob-menu__soc-icons--list">
+
+        <li class="mob-menu__soc-icons--item">
+            <a class="mob-menu__soc-icons--link" href="https://www.instagram.com/goitclub/">
+                <svg class="mob-menu__soc-icons--svg" width="20" >
+                    <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-instagram-burger-white"></use>
+                </svg>
+            </a>
+        </li>
+
+        <li class="mob-menu__soc-icons--item">
+            <a class="mob-menu__soc-icons--link" href="https://www.youtube.com/c/GoIT">
+                <svg class="mob-menu__soc-icons--svg" width="20">
+                    <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-youtube-burger-white"></use>
+                </svg>
+            </a>
+        </li>
+
+        <li class="mob-menu__soc-icons--item">
+            <a class="mob-menu__soc-icons--link" href="https://www.facebook.com/goITclub/ ">
+                <svg class="mob-menu__soc-icons--svg" width="20" >
+                    <use href="/html-css_67_shobut/assets/icons-header-1dd96911.svg#icon-facebook-butger-white"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+<!-- ============= / MOBILE SOCIAL ICONS -WHITE ============= -->
+</div>
+
+
+    <!--Main - unique page content-->
+    <main>
+
+      <!--Hero section-->
+<section class="hero-section">
+  <div class="container">
+    <h1 class="title main-page-title section-title">
+      Explore the High Seas with Our Luxury Yacht Rentals
+    </h1>
+    <p class="text">
+      Experience the freedom and luxury of yachting on the open seas. Choose
+      from our top-of-the-line yachts and embark on an unforgettable journey
+      surrounded by breathtaking views and state-of-the-art amenities.
+    </p>
+    <a href="#rent-a-yacht" class="link scroll-to-rent-a-yacht-link"
+      >Yacht rental</a
+    >
+  </div>
+</section>
+
+
+      <!-- =============== About us section =============== -->
+
+<section class="section" id="about-us">
+        <div class="about-us-section">
+            <div class="about-us-div">
+                <h2 class="about-us-title">YachtJet fleet is here to take you on the ultimate adventure</h2>
+                <div class="about-us-div-text">
+                    <h3 class="about-us-text">
+                    From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect blend of luxury and functionality.
+                    </h3>
+                    <p class="about-us-under-text">
+                    Take a look at our selection below and choose the yacht that matches your needs and preferences.No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and get ready for an unforgettable adventure on the high seas.
+                    </p>
+                </div>
+            </div>
+            <picture>
+                <source srcset="/html-css_67_shobut/assets/about-us-desktop-00cff5d7.png 1x, /html-css_67_shobut/assets/about-us-desktop@2x-b74222bc.png 2x" media="(min-width: 1440px)" />
+                <source srcset="/html-css_67_shobut/assets/about-us-laptop-f29a0f42.png 1x, /html-css_67_shobut/assets/about-us-laptop@2x-e3c3324e.png 2x" media="(min-width: 1280px)" />
+                <source srcset="/html-css_67_shobut/assets/about-us-tablet-ab2d5c93.png 1x, /html-css_67_shobut/assets/about-us-tablet@2x-ec3b922f.png 2x" media="(min-width: 768px)" />
+                <source srcset="/html-css_67_shobut/assets/about-us-mobile-b283575f.png 1x, /html-css_67_shobut/assets/about-us-mobile@2x-3fb8b1b4.png 2x" media="(max-width: 767px)" />
+                <img class="about-us-img" src="/html-css_67_shobut/assets/about-us-mobile-b283575f.png" alt="yacht on the water" />
+            </picture>
+        </div>
+</section>
+
+<!-- =============== /About us section =============== -->
+
+      <!---------------------------- Our yachts section -------------------------->
+
+
+<section class="section-our-yachts section" id="our-yachts">
+    <div class="container">
+        <h2 class="title-our-yachts">Choose your dream yacht and sail away into the sunset</h2>
+        <ul class="list-yachts">
+            <li class="item-yachts">
+                <picture>
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-1-desktop-1440-699682a1.png , /html-css_67_shobut/assets/img-yacht-1-desktop-1440@2x-31003c8f.png 2x" media="(min-width: 1440px)" />
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-1-desktop-1280-486a49ce.png , /html-css_67_shobut/assets/img-yacht-1-desktop-1280@2x-0d5576d0.png 2x" media="(min-width: 1280px)" />
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-1-tablet-08fae636.png , /html-css_67_shobut/assets/img-yacht-1-tablet@2x-68d42ec1.png 2x" media="(min-width: 768px)" />
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-1-mobile-640318b7.png , /html-css_67_shobut/assets/img-yacht-1-mobile@2x-c22d582d.png 2x" media="(max-width: 767px)" />
+                    <img class="item-yachts-image" src="/html-css_67_shobut/assets/img-yacht-1-mobile-640318b7.png" alt="Arrow" />
+                </picture>
+                <div class="table-wrapper">
+                    <div class="table-yachts-row table-yachts-title">
+                        <h3 class="table-yachts-first-column-name">Arrow</h3>
+                        <p class="table-yachts-second-column-lable">Luxury yahts</p>
+                    </div>
+                    <table class="table-yachts-desc">
+                        <tbody>
+                            <tr class="table-yachts-row table-yachts-first-row">
+                                <th class="table-yachts-first-column">Lenght</th>
+                                <th class="table-yachts-second-column">48m(155ft)</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Builder</th>
+                                <th class="table-yachts-second-column">Admiral</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Built</th>
+                                <th class="table-yachts-second-column">2021</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Guests</th>
+                                <th class="table-yachts-second-column">11 in 5 cabins</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Price</th>
+                                <th class="table-yachts-second-column">€33,500,000</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li class="item-yachts second-yacht-card">
+                <picture>
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-2-desktop-1440-a5c1a664.png , /html-css_67_shobut/assets/img-yacht-2-desktop-1440@2x-739275a4.png 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-2-desktop-1280-e17505d2.png , /html-css_67_shobut/assets/img-yacht-2-desktop-1280@2x-ab0368b9.png 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-2-tablet-2f965967.png , /html-css_67_shobut/assets/img-yacht-2-tablet@2x-f653a73c.png 2x" media="(min-width: 768px)" />
+                    <img class="item-yachts-image" src="/html-css_67_shobut/assets/img-yacht-2-tablet-2f965967.png"
+                        alt="BENETTI OASIS 40M BO122" />
+                </picture>
+                <div class="table-wrapper">
+                    <div class="table-yachts-row table-yachts-title">
+                        <h3 class="table-yachts-first-column-name">Benetti Oasis 40M BO122</h3>
+                        <p class="table-yachts-second-column-lable">Luxury yahts</p>
+                    </div>
+                    <table class="table-yachts-desc">
+                        <tbody>
+                            <tr class="table-yachts-row table-yachts-first-row">
+                                <th class="table-yachts-first-column ">Lenght</th>
+                                <th class="table-yachts-second-column">41m (133ft)</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Shipyard</th>
+                                <th class="table-yachts-second-column">Benetti</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Built</th>
+                                <th class="table-yachts-second-column">2025</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Guests</th>
+                                <th class="table-yachts-second-column">10 in 5 cabins</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Price</th>
+                                <th class="table-yachts-second-column">€23,210,000</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li class="item-yachts third-yacht-card">
+                <picture>
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-3-desktop-1440-86a55e29.png , /html-css_67_shobut/assets/img-yacht-3-desktop-1440@2x-87ecb11a.png 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/html-css_67_shobut/assets/img-yacht-3-desktop-1280-213a3031.png , /html-css_67_shobut/assets/img-yacht-3-desktop-1280@2x-7437f0f1.png 2x"
+                        media="(min-width: 1280px)" />
+                    <img class="item-yachts-image" src="/html-css_67_shobut/assets/img-yacht-3-desktop-1280-213a3031.png"
+                        alt="BELLE ANNA" />
+                </picture>
+                <div class="table-wrapper">
+                    <div class="table-yachts-row table-yachts-title">
+                        <h3 class="table-yachts-first-column-name">Belle Anna</h3>
+                        <p class="table-yachts-second-column-lable">Luxury yahts</p>
+                    </div>
+                    <table class="table-yachts-desc">
+                        <tbody>
+                            <tr class="table-yachts-row table-yachts-first-row">
+                                <th class="table-yachts-first-column">Lenght</th>
+                                <th class="table-yachts-second-column">50m(155ft)</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Shipyard</th>
+                                <th class="table-yachts-second-column">ISA</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Built</th>
+                                <th class="table-yachts-second-column">2012</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Guests</th>
+                                <th class="table-yachts-second-column">12 in 6 cabins</th>
+                            </tr>
+                            <tr class="table-yachts-row">
+                                <th class="table-yachts-first-column">Price</th>
+                                <th class="table-yachts-second-column">€21,000,000</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+        </ul>
+        <a href="#rent-a-yacht" class="link-yacht-rental">Yacht rental</a>
+    </div>
+</section>
+
+
+<!---------------------------- /Our yachts section -------------------------->
+
+
+      <section class="section-advantages">
+    <div class="container container-advantages">
+        <h2 class="visually-hidden">team</h2>
+        <div class="advantages">
+            <ol class="numbered-list">
+                <li class="numbered-list-item">
+                    <p class="number-item">01</p>
+                    <p class="title-item-pr">Swimming and water sports: try your hand at water skiing</p>
+                </li>
+                <li class="numbered-list-item">
+                    <p class="number-item">02</p>
+                    <p class="title-item-pr">Fishing: try to catch your own dinner</p>
+                </li>
+                <li class="numbered-list-item">
+                    <p class="number-item">03</p>
+                    <p class="title-item-pr">Sightseeing tours: take a shore or island tour, enjoy the views and sunsets
+                        from the water </p>
+                </li>
+                <li class="numbered-list-item">
+                    <p class="number-item">04</p>
+                    <p class="title-item-pr">Rest and relaxation: read a book or listen to music while enjoying the
+                        outdoor atmosphere.</p>
+                </li>
+            </ol>
+        </div>
+
+        <picture>
+            <source srcset="/html-css_67_shobut/assets/yacht-dec-2-53a96211.jpg 1x, /html-css_67_shobut/assets/yacht-dec-2@2x-70f909c4.jpg 2x"
+                media="(min-width: 1440px)">
+            <source srcset="/html-css_67_shobut/assets/yacht-dec-1-b0184b1a.jpg 1x, /html-css_67_shobut/assets/yacht-dec-1@2x-25ebee9a.jpg 2x"
+                media="(min-width: 1280px)">
+            <source
+                srcset="/html-css_67_shobut/assets/yacht-tablet-d3437c67.jpg 1x, /html-css_67_shobut/assets/yacht-tablet@2x-6480f23f.jpg 2x"
+                media="(min-width: 768px)">
+            <source srcset="/html-css_67_shobut/assets/yacht-mobile-50f54fe6.jpg 1x, /html-css_67_shobut/assets/yacht-mobile@2x-170b3ca1.jpg 2x"
+                media="(min-width: 320px)">
+            <img class="advantages-img" src="/html-css_67_shobut/assets/yacht-mobile-50f54fe6.jpg" alt="advantages img">
+        </picture>
+    </div>
+</section>
+
+      <!-- ===== Rent a yacht ===== -->
+
+<section class="rent-a-yacht section" id="rent-a-yacht">
+  <div class="rent-a-yacht-container container">
+    <!-- === Обгортка для стилізації === -->
+    <div class="wrapper">
+      <!-- === Заголовок секції === -->
+      <h2 class="subtitle">Rent a yacht now</h2>
+      <!-- === Форма замовлення === -->
+      <form class="form">
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ ]+"
+            title="Ilona Ratushniak"
+            placeholder="Full Name"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="Phone number"
+            required
+          />
+        </label>
+        <label class="form-label-textarea">
+          <textarea
+            class="form-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+        <!-- === Кнопка Send === -->
+        <button class="button-form" type="submit">Send</button>
+      </form>
+    </div>
+    <!-- === Контенте зображення === -->
+    <picture>
+      <source
+        srcset="/html-css_67_shobut/assets/big-desktop-rent-a-yacht-b34935e6.jpg 1x, /html-css_67_shobut/assets/big-desktop-rent-a-yacht@2x-69ec55d7.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/html-css_67_shobut/assets/desktop-rent-a-yacht-80907416.jpg 1x, /html-css_67_shobut/assets/desktop-rent-a-yacht@2x-92bfe4b9.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/html-css_67_shobut/assets/tablet-rent-a-yacht-ae6f00f2.jpg 1x, /html-css_67_shobut/assets/tablet-rent-a-yacht@2x-f6063f2f.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/html-css_67_shobut/assets/mobile-rent-a-yacht-a346dbc9.jpg 1x, /html-css_67_shobut/assets/mobile-rent-a-yacht@2x-dd976e86.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="rent-a-yacht-img"
+        src="/html-css_67_shobut/assets/mobile-rent-a-yacht-a346dbc9.jpg"
+        alt="Rent a yacht"
+      />
+    </picture>
+  </div>
+</section>
+
+
+      <!-- SECTION - REVIEWS -->
+<section class="reviews section" id="reviews">
+  <div class="container reviews-content-container">
+    <h2 class="reviews-title">
+      YachtJet take pride in providing the best possible service and experience
+      to our customers
+    </h2>
+
+    <p class="reviews-text">
+      Our customers have enjoyed unforgettable moments on our yachts. Don't just
+      take our word for it - read on to find out what they have to say about
+      their journey with us.
+    </p>
+
+    <ul class="reviews-list list">
+      <li class="reviews-list-item">
+        <img
+          class="reviews-list-avatar"
+          srcset="/html-css_67_shobut/assets/john-70d503e9.png 1x, /html-css_67_shobut/assets/john@2x-294c1c0a.png 2x"
+          src="/html-css_67_shobut/assets/john-70d503e9.png"
+          alt="John Wax"
+          width="56"
+          height="56"
+        />
+        <h3 class="reviews-list-title">John Wax</h3>
+        <p class="reviews-list-text">
+          I rented the Lagoon 620 with my family for a week-long vacation and it
+          was the best decision ever. The yacht was spacious, comfortable, and
+          luxurious, and the crew took care of everything.
+        </p>
+      </li>
+
+      <li class="reviews-list-item">
+        <img
+          class="reviews-list-avatar"
+          srcset="/html-css_67_shobut/assets/victoria-e22b8999.png 1x, /html-css_67_shobut/assets/victoria@2x-88c4a2bb.png 2x"
+          src="/html-css_67_shobut/assets/victoria-e22b8999.png"
+          alt="John Wax"
+          width="56"
+          height="56"
+        />
+        <h3 class="reviews-list-title">Victoria Romashenko</h3>
+        <p class="reviews-list-text">
+          The Sunseeker Manhattan 66 was the perfect choice for our romantic
+          getaway. The yacht was beautifully designed, with all the amenities we
+          needed, and the crew was attentive and friendly.
+        </p>
+      </li>
+
+      <li class="reviews-list-item">
+        <img
+          class="reviews-list-avatar"
+          srcset="/html-css_67_shobut/assets/ihor-30437326.png 1x, /html-css_67_shobut/assets/ihor@2x-29d1b01c.png 2x"
+          src="/html-css_67_shobut/assets/ihor-30437326.png"
+          alt="Ihor Trachuk"
+          width="56"
+          height="56"
+        />
+        <h3 class="reviews-list-title">Ihor Trachuk</h3>
+        <p class="reviews-list-text">
+          The Azimut 80 was the most luxurious yacht I've ever been on. The
+          cabins were spacious and elegant, and the outdoor areas were perfect
+          for relaxing and entertaining. Worth every penny!
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+    </main>
+
+    <!-- FOOTER -->
+<footer class="footer-wrapper">
+  <div class="footer">
+    <div class="footer-nav-social-container">
+      <a href="/" class="logo-footer">yachtjet</a>
+      <nav class="footer-nav">
+        <a href="#about-us" class="footer-nav-link">About</a>
+        <a href="#our-yachts" class="footer-nav-link">Yachts</a>
+        <a href="#reviews" class="footer-nav-link">Reviews</a>
+      </nav>
+      <ul class="footer-socials-list">
+        <li>
+          <a
+            href="https://www.instagram.com/goitclub/"
+            class="footer-social-link"
+            target="_blank"
+          >
+            <svg
+              class="footer-icon"
+              height="24"
+              width="24"
+              aria-label="Instagram"
+            >
+              <use href="/html-css_67_shobut/assets/icons-9d6a7d1c.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/c/GoIT"
+            class="footer-social-link"
+            target="_blank"
+          >
+            <svg
+              class="footer-icon"
+              height="24"
+              width="24"
+              aria-label="Youtube"
+            >
+              <use href="/html-css_67_shobut/assets/icons-9d6a7d1c.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/goITclub/"
+            class="footer-social-link"
+            target="_blank"
+          >
+            <svg
+              class="footer-icon"
+              height="24"
+              width="24"
+              aria-label="Facebook"
+            >
+              <use href="/html-css_67_shobut/assets/icons-9d6a7d1c.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="footer-text">
+      No matter which yacht you choose, our experienced crew will ensure that
+      your journey is smooth and enjoyable.
+    </p>
+    <div class="footer-bottom">
+      <p class="footer-bottom-text">2023. Yacht Adventures</p>
+      <a
+        href="https://goit.global/ua/privacy-policy/"
+        target="_blank"
+        class="footer-bottom-link"
+        >Privacy Police</a
+      >
+    </div>
+  </div>
+</footer>
+
+
+        <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    
+    
+  </body>
+</html>
